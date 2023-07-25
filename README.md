@@ -12,4 +12,4 @@
 - Paradigma / Modelo de programação
 
 ### Executar arquivo
-´node src/index.js´
+`node src/index.js`
