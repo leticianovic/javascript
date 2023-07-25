@@ -11,3 +11,5 @@
 ## Programação Orientada a Objetos (OOP)
 - Paradigma / Modelo de programação
 
+### Executar arquivo
+´node src/index.js´
