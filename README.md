@@ -20,6 +20,11 @@
 - Frameworks
 - De fato são "funções especiais"
 - Método contrutor: constructor
+
+## Arrow Functions
+- Multiplos parâmetros: (p1, p2, ..., pN) => { expressao }
+- Expressão / Algoritmo simples: (p1, p2) => expressao
+- Único parâmetro: p1 => { expressao }
   
 ### Executar arquivo
 `node src/index.js`

@@ -50,5 +50,10 @@ const m07 = new Movimentacao('Nubank', 'reembolso', 3000)
 
 const reg01 = new Registro(1,8,2023)
 reg01.novaMovimentacao(m01, m02, m03, m04, m05, m06, m07)
+console.log('O saldo dos registros ' + reg01.resumo())
 
-console.log('O saldo dos registros foi de: ' + reg01.resumo())
+const movimentacoesGerais = [m01, m02, m03, m04, m05, m06, m07]
+
+movimentacoesGerais.map(elemento =>
+    console.log(elemento.banco.length)
+)
