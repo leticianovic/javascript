@@ -7,4 +7,5 @@ function Pessoa(){
     }, 2000);
 }
 
-const p1 = new Pessoa() 
+const p1 = new Pessoa()
+
