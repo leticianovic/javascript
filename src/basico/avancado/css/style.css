@@ -24,6 +24,17 @@ html {
     height: auto;
 }
 
+#resultadoBimestre {
+    background: rgb(213, 194, 235);
+    padding: 30px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border: 5px double rgb(44, 4, 59);
+    border-radius: 10px;
+    height: auto;
+}
+
 input {
     width: 90%;
     padding: 1rem 5rem;
