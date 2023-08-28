@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#formulario-01, #formulario-02 {
+    background: rgb(213, 194, 235);
+    padding: 30px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border: 5px double rgb(44, 4, 59);
+    border-radius: 10px;
+    height: auto;
+}
+
+input {
+    width: 90%;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    color: rgb(96, 75, 116);
+}
+
+.formulario-01-n, .formulario-02-cad {
+    text-align: center;
+    border: 2px solid rgb(44, 4, 59);
+    width: 80%;    
+}
+
+input, button {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-cadastrar {
+    border: 0 none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #c916ec;
+    width: 10rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-cadastrar:hover {
+    background-color: #b070ce;
+}
+
+.mensagem, #resultado {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.erro {
+    border-color: red;
+}
+
+/* GERAL - TABLET */
+@media (max-width: 768px){
+	.formulario-01-n, .formulario-02-cad {
+        width: 70%;
+    }    
+}
+
+/* GERAL - MOBILE FIRST */
+@media (max-width: 426px){
+	.formulario-01-n, .formulario-02-cad {
+        width: 50%;
+    }    
+}
