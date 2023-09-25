@@ -28,3 +28,13 @@
   
 ### Executar arquivo
 `node src/index.js`
+`http-server ./src`
+
+## Manipulação de Dados
+- Javascript trabalha com tipagem dinamica (numeros, textos, strings, objetos, arrays)
+  `let x = 0`
+  `x = 'Mariana'`
+
+## Export e Import
+- São recursos do EcmaScript Modules
+
