@@ -35,9 +35,7 @@
   `let x = 0`
   `x = 'Mariana'`
 
+- Arrays
+
 ## Export e Import
 - São recursos do EcmaScript Modules
-
-- Arrays 
-
-`git push origin HEAD:data-manipulation`
