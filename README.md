@@ -41,3 +41,18 @@
 - Arrays 
 
 `git push origin HEAD:data-manipulation`
+
+## TypeScript
+- [Download](https://www.typescriptlang.org/)
+- `npm install typescript --save-dev`
+
+### Tipos de dados
+- boolean
+- string ("Texto", 'exemplo')
+- arrays
+- tuple
+- enum {chave: valor}
+
+- Converter arquivo TS para JS
+  - `npx tsc ./src/intro.ts` (Cria um arquivo intro.js)
+
