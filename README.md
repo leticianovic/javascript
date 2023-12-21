@@ -40,7 +40,7 @@
 
 - Arrays 
 
-`git push origin HEAD:data-manipulation`
+`git push origin HEAD:javascript-dm`
 
 ## TypeScript
 - [Download](https://www.typescriptlang.org/)
@@ -54,5 +54,4 @@
 - enum {chave: valor}
 
 - Converter arquivo TS para JS
-  - `npx tsc ./src/intro.ts` (Cria um arquivo intro.js)
-
+  - `npx tsc ./src/intro.ts` (Cria um arquivo intro.ts)
