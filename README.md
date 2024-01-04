@@ -26,10 +26,6 @@
 - Expressão / Algoritmo simples: (p1, p2) => expressao
 - Único parâmetro: p1 => { expressao }
   
-### Executar arquivo
-`node src/index.js`
-`http-server ./src`
-
 ## Manipulação de Dados
 - Javascript trabalha com tipagem dinamica (numeros, textos, strings, objetos, arrays)
   `let x = 0`
@@ -66,9 +62,17 @@
   - ESLint usa um AST para avaliar padrões no código.
   - ESLint é totalmente conectável, cada regra é um plugin e você pode adicionar mais em tempo de execução.
   - Para executar a configuração do eslint: `eslint --init`
-  - Executar o comando: `eslint ./src/**` 
+  - Executar o comando: `eslint ./src/**`
+
+## Frameworks Modernos
+- React: Desenvolvido pelo Facebook
+- Vue.js (https://vuejs.org/): desenvolvido por um grupo de desenvolvedores
+- Angular (https://angular.io/): desenvolvido pelo Google
+  - Instalando com o npm: `npm install -g @angular/cli`
 
 ## Executar códigos
 - Atualizar as dependencias: `npm update`
   
 - `git push origin HEAD:javascript-dm`
+
+- Executar arquivos: `node src/index.js` ou `http-server ./src`

@@ -7,7 +7,47 @@
 </head>
 <body>
     <div id="main"></div>
-    <script src="./exams.js" type="module"></script>
+
+    <div id="app">
+        <h1>
+            {{ message }}
+        </h1>
+        <br><br>
+        Meu nome é {{ nome }}
+        <br><br><br>
+        <span v-bind:title="messageT">
+            Passe o mouse sobre mim por alguns segundos para ver meu título vinculado dinamicamente!
+        </span>
+        <br><br><br>
+        <span v-if="seen">Agora você me vê</span>
+        <br><br><br>
+        <ol>
+            <li v-for="todo in todos">
+              {{ todo.text }}
+            </li>
+          </ol>
+    </div>
+
+    <!-- <script src="./exams.js" type="module"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!',
+                nome: 'Letícia',
+                messageT: 'Você carregou esta página em ' + new Date().toLocaleDateString(),
+                seen: true,
+                todos: [
+                    { text: 'Aprender JavaScript' },
+                    { text: 'Aprender Vue' },
+                    { text: 'Construa algo incrível' }
+                ] // Executar codigo no console para ver o que acontece: "app.todos.push({text: 'New item'})"
+            }
+        })
+    </script>
 
     
 </body>
