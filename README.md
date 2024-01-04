@@ -38,9 +38,7 @@
 ## Export e Import
 - São recursos do EcmaScript Modules
 
-- Arrays 
-
-`git push origin HEAD:javascript-dm`
+- Arrays
 
 ## TypeScript
 - [Download](https://www.typescriptlang.org/)
@@ -67,3 +65,10 @@
   - ESLint usa Espree para análise de JavaScript.
   - ESLint usa um AST para avaliar padrões no código.
   - ESLint é totalmente conectável, cada regra é um plugin e você pode adicionar mais em tempo de execução.
+  - Para executar a configuração do eslint: `eslint --init`
+  - Executar o comando: `eslint ./src/**` 
+
+## Executar códigos
+- Atualizar as dependencias: `npm update`
+  
+- `git push origin HEAD:javascript-dm`
