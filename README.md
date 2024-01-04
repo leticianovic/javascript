@@ -55,3 +55,15 @@
 
 - Converter arquivo TS para JS
   - `npx tsc ./src/intro.ts` (Cria um arquivo intro.ts)
+
+## JS Linter
+ - Instalação (Lembrando que o "-g" é opcional): `npm install jslinter -g`
+ - É uma ferramenta de qualidade de código JSLint para o ambiente Node.js.JSLinter vem com duas utilidades: uma ferramenta de linha de comando chamada jslint, útil para verificar arquivos de dentro da linha de comando do terminal, e um módulo Node.js.
+ - Há também o Eslint, que segue a mesma utilidade
+
+### ESLint
+- Instalação (Lembrando que o "-g" é opcional): `npm i -g eslint`
+- É uma ferramenta para identificar e relatar padrões encontrados em código ECMAScript/JavaScript. Em muitos aspectos, é semelhante a JSLint e JSHint, com algumas exceções:
+  - ESLint usa Espree para análise de JavaScript.
+  - ESLint usa um AST para avaliar padrões no código.
+  - ESLint é totalmente conectável, cada regra é um plugin e você pode adicionar mais em tempo de execução.
