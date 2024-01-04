@@ -66,7 +66,12 @@
 
 ## Frameworks Modernos
 - React: Desenvolvido pelo Facebook
+  - Criando um projeto react: `npx create-react-app project-react`
+  - Instalando o yarn: `npm i yarn -g`
+  - Executando: `yarn start`
+
 - Vue.js (https://vuejs.org/): desenvolvido por um grupo de desenvolvedores
+  
 - Angular (https://angular.io/): desenvolvido pelo Google
   - Instalando com o npm: `npm install -g @angular/cli`
 
