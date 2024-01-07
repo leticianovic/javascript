@@ -1,16 +1,13 @@
-import months from './months.js'
+import series from './series.js'
 
-// Filtro de meses
-const filteredMonths31 = months.filter((months)=> {
-    return months.days == 31
+// Filtro de nome de serie
+const filteredName = series.filter((series)=> {
+    return series.name == 'Lucifer'
 })
 
-const filteredMonths = months.filter((months)=> {
-    return months.days == 30
-})
+console.log(filteredName)
 
-console.log(filteredMonths)
-
+/*
 let toPrint = ''
 
 // Listagem de meses
@@ -35,4 +32,4 @@ let years = cachorros.map((cachorro => {
     return cachorro * 7
 }))
 
-document.getElementById('main').innerHTML = toPrint + '<br> Soma dos dias dos meses selecionados: ' + sumMonthDays.days + '<br> idade humana dos cachorros: ' + years
+document.getElementById('main').innerHTML = toPrint + '<br> Soma dos dias dos meses selecionados: ' + sumMonthDays.days + '<br> idade humana dos cachorros: ' + years*/
