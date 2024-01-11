@@ -3,69 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
+    <title>Vue Hello World</title>
 </head>
 <body>
-    <div id="entretenimento">
-
-        <h1> 
-            {{ type }} 
-        </h1>
-
-            <br>
-
-        <h2 v-bind:title="resumo">
-            <span v-if="seen">{{ id }}</span> 
-            {{ name }}
-        </h2>
-
-            <br>
-
-        <ol>
-            <li v-for="char in serie">
-              {{ char.text }}
-            </li>
-          </ol>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-
-    <script>
-        var serie1 = new Vue({
-            el: '#entretenimento',
-            data: {
-                id: 1,
-                type: 'Serie',
-                name: 'Chuck',
-                resumo: 'Chuck Bartowski é um homem comum que trabalha em uma loja de informática. Um dia, ele abre um e-mail que foi codificado com segredos vitais do governo, provocando uma transferência massiva de dados sigilosos em seu cérebro.',
-                message: 'Hello Vue!',
-                nome: 'Letícia',
-                seen: false,
-                serie: [
-                    { text: 'Chuck' },
-                    { text: 'Sarah' },
-                    { text: 'John' }
-                ]
-            }
-        })
-
-        var serie2 = new Vue({
-            el: '#entretenimento',
-            data: {
-                id: 2,
-                type: 'Serie',
-                name: 'Lucifer',
-                resumo: 'Chuck Bartowski é um homem comum que trabalha em uma loja de informática. Um dia, ele abre um e-mail que foi codificado com segredos vitais do governo, provocando uma transferência massiva de dados sigilosos em seu cérebro.',
-                seen: false,
-                serie: [
-                    { text: 'Lucifer' },
-                    { text: 'Chloe' },
-                    { text: 'Trixie' }
-                ]
-            }
-        })
-
-    </script>
-
+    <div id="app"></div>
 </body>
 </html>

@@ -153,4 +153,4 @@ function getSeries(){
     return series
 }
 
-getSeries()
+export default getSeries()

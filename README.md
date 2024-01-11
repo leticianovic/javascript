@@ -81,3 +81,6 @@
 - `git push origin HEAD:javascript-dm`
 
 - Executar arquivos: `node src/index.js` ou `http-server ./src`
+
+## Exercicio
+- Executar codigo: npm run serve
