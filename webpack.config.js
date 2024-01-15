@@ -1,8 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader')
+const { VueLoaderPlugin } = require('vue-loader');
+const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/components/main.js',
   module: {
     rules: [
       { test: /\.js$/, use: 'babel-loader' },
@@ -10,10 +11,15 @@ module.exports = {
       { test: /\.css$/, use: ['vue-style-loader', 'css-loader']},
     ]
   },
+  devServer: {
+    open: true,
+    hot: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
     new VueLoaderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ]
 };

@@ -7,6 +7,35 @@
 </head>
 <body>
     <div id="app"></div>
-    <div id="serie"></div>
+    <div id="serie">
+        <h1> 
+            {{ type }} 
+        </h1>
+
+        <div id="serie1"></div>
+        <div id="serie2"></div>
+        <div id="serie3"></div>
+
+        <li v-for="n in evenNumbers">{{ n }}</li>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+        var tp = new Vue({
+            el: '#serie',
+            data: {
+                type: 'Serie',
+            }
+        })
+    </script>
+
+<script>
+    const numbers = ([1, 2, 3, 4, 5])
+
+    const evenNumbers = computed(() => {
+        return numbers.value.filter((n) => n % 2 === 0)
+    })
+</script>
 </body>
 </html>
