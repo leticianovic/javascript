@@ -149,8 +149,8 @@ let series = [
     }
 ]
 
-function getSeries(){
-    return series
+function print(series) {
+    console.log(JSON.stringify(series, null, 4));
 }
 
-export default getSeries()
+print(series);
