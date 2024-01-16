@@ -21,7 +21,6 @@
                 name: 'Chuck',
                 resumo: 'Chuck Bartowski é um homem comum que trabalha em uma loja de informática. Um dia, ele abre um e-mail que foi codificado com segredos vitais do governo, provocando uma transferência massiva de dados sigilosos em seu cérebro.',
                 seen: false,
-                
                 character: [
                     { text: 'Chuck' },
                     { text: 'Sarah' },

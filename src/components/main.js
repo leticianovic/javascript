@@ -3,6 +3,7 @@ import App from './App.vue';
 import Serie from './Serie1.vue';
 import Serie2 from './Serie2.vue';
 import Serie3 from './Serie3.vue';
+import Filtro from './Filtro.vue';
 
 const app = createApp(App)
 app.mount('#app')
@@ -15,3 +16,6 @@ serie2.mount('#serie2')
 
 const serie3 = createApp(Serie3)
 serie3.mount('#serie3')
+
+const filtro = createApp(Filtro)
+filtro.mount('#filtroSeries')

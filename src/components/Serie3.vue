@@ -31,7 +31,6 @@
                     { charT: 'Dembe Zuma'}
                 ]
             }
-            
         }
     };
 </script>
